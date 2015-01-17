@@ -3,9 +3,14 @@ Simplifying dating.
 
 ## Installation instructions
 *Prerequisites:* You must have [node.js](http://nodejs.org/) installed, as well as
-[Grunt](http://gruntjs.com/). To install Grunt, run `npm -g install grunt-cli`.
+[Grunt](http://gruntjs.com/). To install Grunt, run the following command:
 
-To install the application, simply run `npm install`. The server can then be
-started with a simple call to `grunt`.
+    npm -g install grunt-cli
+
+To install all of the dependencies for the application, run the following command:
+
+    npm install
+
+The server can then be started by calling `grunt`.
 
 By default, the server starts locally at http://127.0.0.1:3000/.

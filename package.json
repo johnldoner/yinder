@@ -1,0 +1,10 @@
+{
+  "name": "yinder",
+  "version": "0.0.1",
+  "description": "Simplifying dating.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnldoner/yinder"
+  }
+}

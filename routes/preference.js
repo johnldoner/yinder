@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var content={ title: 'Yinder',
+var content={ title: 'Choose Your Preference',
 
 
   author: {
@@ -9,9 +9,9 @@ var content={ title: 'Yinder',
     name: "Yehuda Katz"
   },
   items: [
-    {name: "Handlebars", emotion: "love"},
-    {name: "Mustache", emotion: "enjoy"},
-    {name: "Ember", emotion: "want to learn"}
+    {name: "Handlebars3", emotion: "love1"},
+    {name: "Mustache2", emotion: "enjoy2"},
+    {name: "Ember1", emotion: "want to learn4"}
   ]
 
 
@@ -20,9 +20,7 @@ var content={ title: 'Yinder',
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', content);
+    res.render('preference', content);
 });
-
-
 
 module.exports = router;

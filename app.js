@@ -9,6 +9,7 @@ var mongoose = require('mongoose');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var preference= require('./routes/preference')
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/preference', preference);
 app.use('/yelp', function() { express.static(__dirname + '/yelp'); });
 
 // catch 404 and forward to error handler

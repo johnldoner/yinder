@@ -7,3 +7,5 @@ Simplifying dating.
 
 To install the application, simply run `npm install`. The server can then be
 started with a simple call to `grunt`.
+
+By default, the server starts locally at http://127.0.0.1:3000/.

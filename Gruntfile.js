@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.loadNpmTasks("grunt-shell");
+	require("load-grunt-tasks")(grunt);
 
 	grunt.registerTask("default", ["shell:startServer"]);
 	grunt.registerTask("deploy", ["shell:firebase"]);

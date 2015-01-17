@@ -1,0 +1,9 @@
+{
+  "firebase": "yinder",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

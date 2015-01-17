@@ -13,5 +13,5 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks("grunt-shell");
 
-	grunt.registerTask("firebase", ["shell:firebase"]);
+	grunt.registerTask("deploy", ["shell:firebase"]);
 };

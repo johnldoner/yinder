@@ -8,4 +8,20 @@
 {{/each}}
 
 
+<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary active">
+    <input type="checkbox" autocomplete="off" checked> Checkbox 1 (pre-checked)
+  </label>
+{{#each places}}
+  <label class="btn btn-primary">
+    <input type="checkbox" autocomplete="off"> {{name}}
+  </label>
+  {{/each}}
+  <!--
+  <label class="btn btn-primary">
+    <input type="checkbox" autocomplete="off"> Checkbox 3
+  </label>
+  -->
+</div>
+
 

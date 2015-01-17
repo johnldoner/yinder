@@ -8,10 +8,14 @@ var content={ title: 'Choose Your Preference',
     id: 47,
     name: "Yehuda Katz"
   },
-  items: [
-    {name: "Handlebars3", emotion: "love1"},
-    {name: "Mustache2", emotion: "enjoy2"},
-    {name: "Ember1", emotion: "want to learn4"}
+  places: [
+    {name: "Restaurants"},
+    {name: "Nightlife"},
+    {name: "Food"},
+    {name: "Bars"},
+    {name: "Art& Entertainment"},
+    {name: "Active Life"}
+    
   ]
 
 

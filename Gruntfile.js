@@ -7,11 +7,15 @@ module.exports = function(grunt) {
 		shell: {
 			firebase: {
 				command: "firebase deploy"
+			},
+			startServer: {
+				command: "node ./bin/www"
 			}
 		}
 	});
 
 	grunt.loadNpmTasks("grunt-shell");
 
+	grunt.registerTask("default", ["shell:startServer"]);
 	grunt.registerTask("deploy", ["shell:firebase"]);
 };
